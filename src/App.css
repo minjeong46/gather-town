@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.character {
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-image: url(../public/character.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
