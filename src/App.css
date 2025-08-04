@@ -6,9 +6,10 @@
 
 .character {
     background: url(./assets/character.png) no-repeat -7px -31px;
-	width: 121px;
-	height: 155px;
+    width: 122px;
+    height: 180px;
     position: absolute;
     left: 100px;
     top: 100px;
+    transition: left 0.2s ease, top 0.2s ease;
 }
