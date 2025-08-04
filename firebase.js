@@ -6,7 +6,7 @@ import { getDatabase } from "firebase/database";
 const firebaseConfig = {
     // ...
     // The value of `databaseURL` depends on the location of the database
-    databaseURL: "https://gather-town-4353a-default-rtdb.firebaseio.com/",
+    databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
 };
 
 // Initialize Firebase
