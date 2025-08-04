@@ -17,9 +17,9 @@ GatherTown 같이 실시간으로 캐릭터 이동 반영하는 사이트
    
       ```
       setPosition((prev) => {
-        const next = { ...prev };
-        if (e.key === "ArrowDown") {
-          next.y += 10;
+         const next = { ...prev };
+         if (e.key === "ArrowDown") {
+             next.y += 10;
       ```
     - 이동시 isMove state 상태 업데이트
     - 이동하면 position state 상태 업데이트
