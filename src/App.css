@@ -5,12 +5,9 @@
 }
 
 .character {
-    content: "";
-    width: 150px;
-    height: 200px;
-    background-image: url(../public/character.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+    background: url(./assets/character.png) no-repeat -7px -31px;
+	width: 121px;
+	height: 155px;
     position: absolute;
     left: 100px;
     top: 100px;
